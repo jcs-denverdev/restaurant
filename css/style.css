@@ -101,10 +101,6 @@ table {
 /* TYPOGRAPHY
 /*******************************************/
 
-.heading-bold-font {
-  font: 700 4em 'PT Serif';
-}
-
 .navbar li {
   text-decoration: none;
   font: 300 1em 'PT Serif';
@@ -179,7 +175,7 @@ main {
 }
 
 .welcome {
-  padding: 5em 8em 8em 5em;
+  padding: 5em 8em 8em 3em;
   border: 2px solid black;
   /* margin: 3em; */
   width: 70%;
@@ -187,9 +183,11 @@ main {
 }
 
 .welcome h1 {
-  text-align: left;
   background-color: rgba(165, 42, 42, 0.598);
+}
 
+.heading-bold-font {
+  font: 700 3.5em 'PT Serif';
 }
 
 /******************************************
