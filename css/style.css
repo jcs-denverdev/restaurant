@@ -35,6 +35,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+  font-size: 16.5px;
   --orange-theme: rgb(238,141,52);
 }
 
@@ -142,8 +143,8 @@ header div.img-container img {
 header nav.navbar {
   float: left;
   width: 60%;
-  padding: 1.5em 0 0 0;
-  background-color: rgba(226, 174, 96, 0.488);
+  padding: 1em 0 0 0;
+  /* background-color: rgba(226, 174, 96, 0.488); */
 }
 
 nav.navbar li {
@@ -178,12 +179,46 @@ main {
 }
 
 .welcome {
-  padding: 100px;
+  padding: 5em 8em 8em 5em;
+  border: 2px solid black;
+  /* margin: 3em; */
+  width: 70%;
+  background-color: rgba(99, 99, 210, 0.44);
 }
 
 .welcome h1 {
   text-align: left;
-  width: 50%;
+  background-color: rgba(165, 42, 42, 0.598);
+
+}
+
+/******************************************
+/* WELCOME - FORM INPUT BUTTON
+/*******************************************/
+
+.welcome form {
+  margin-top: 30px;
+}
+
+.welcome input {
+  width: 40%;
+  height: 50px;
+  padding-left: 30px;
+  border-top-left-radius: 7.5px;
+  border-bottom-left-radius: 7.5px;
+  border: 1px solid gray;
+}
+
+.orange-button {
+  background-color: var(--orange-theme);
+  color: white;
+  border: none;
+  width: 130px;
+  position: relative;
+  right: 5px;
+  height: 50px;
+  border-top-right-radius: 7.5px;
+  border-bottom-right-radius: 7.5px;
 }
 
 .welcome span {
@@ -224,33 +259,4 @@ main {
 
 .menu-items {
   width: 100%;
-}
-
-/******************************************
-/* BUTTONS
-/*******************************************/
-
-.welcome form {
-  margin-top: 30px;
-}
-
-.welcome input {
-  width: 40%;
-  height: 50px;
-  padding-left: 30px;
-  border-top-left-radius: 7.5px;
-  border-bottom-left-radius: 7.5px;
-  border: 1px solid gray;
-}
-
-.orange-button {
-  background-color: rgb(238,141,52);
-  color: white;
-  border: none;
-  width: 130px;
-  position: relative;
-  right: 5px;
-  height: 50px;
-  border-top-right-radius: 7.5px;
-  border-bottom-right-radius: 7.5px;
 }
