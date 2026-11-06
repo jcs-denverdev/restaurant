@@ -134,16 +134,16 @@ header div.img-container {
 }
 
 header div.img-container img {
-  width: 60%;
-  margin-left: 2em;
-  padding: .5em;
+  width: 30%;
+  margin-left: 3em;
+  padding: .2em .5em;
 }
 
 header nav.navbar {
   float: left;
   width: 60%;
   padding: 1.5em 0 0 0;
-  background-color: blanchedalmond;
+  background-color: rgba(226, 174, 96, 0.488);
 }
 
 nav.navbar li {
@@ -167,15 +167,14 @@ nav.navbar li {
 }
 
 /******************************************
-/* HERO
+/* MAIN
 /*******************************************/
 
-.hero {
+main {
   background-image: url(/images/hero-fruit.jpg);
   background-size: 100%;
-  background-position: top;
+  /* background-position: top; */
   background-repeat: no-repeat;
-  height: 650px;
 }
 
 .welcome {
