@@ -60,7 +60,7 @@ table {
 /* Box Model Hack */
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
   
 /* Clear fix hack */
@@ -81,8 +81,6 @@ table {
 /******************************************
 /* FONT-AWESOME ICONS
 /*******************************************/
-
-
 
 .fa-brands {
   color: var(--orange-theme);
@@ -133,28 +131,21 @@ header {
 
 header div.img-container {
   float: left;
-  width: 30%;
+  width: 40%;
+}
+
+header div.img-container img {
+  width: 100%;
 }
 
 header nav.navbar {
   float: left;
-  width: 70%;
+  width: 60%;
 }
 
-
-
-.primary-nav ul {
-  margin-left: 60px;
-}
-
-.navbar li {
-  margin: 30px;
-  border: 1px solid red;
-}
-
-.navbar ul {
-  width: 100%;
-  height: 75px;
+nav.navbar li {
+  float: left;
+  padding: .3em;
 }
 
 /******************************************
