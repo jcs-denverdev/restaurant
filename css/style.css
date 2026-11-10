@@ -35,6 +35,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+  --orange-theme: rgb(238,141,52);
 }
 
 ol, ul {
@@ -81,8 +82,10 @@ table {
 /* FONT-AWESOME ICONS
 /*******************************************/
 
+
+
 .fa-brands {
-  color: rgb(238,141,52);
+  color: var(--orange-theme);
 }
 
 .fa-magnifying-glass {
@@ -110,7 +113,7 @@ table {
 }
 
 .orange-text {
-  color: rgb(238,141,52);
+  color: var(--orange-theme);
 }
 
 .aboutSection p {
@@ -119,24 +122,26 @@ table {
 }
 
 /******************************************
-/* NAV
+/* HEADER
 /*******************************************/
 
-.nav div, .navbar li {
+header {
+  background-color: aquamarine;
   float: left;
-}
-
-.nav div img {
   width: 100%;
 }
 
-.nav div {
-  margin: 10px 0 0 50px;
+header div.img-container {
+  float: left;
+  width: 30%;
 }
 
-.primary-nav li {
-  margin: 30px;
+header nav.navbar {
+  float: left;
+  width: 70%;
 }
+
+
 
 .primary-nav ul {
   margin-left: 60px;
