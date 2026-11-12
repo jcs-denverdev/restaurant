@@ -172,7 +172,7 @@ table {
 /*******************************************/
 
 .hero {
-  background-image: url(images/hero-fruit.jpg);
+  background-image: url(/images/hero-fruit.jpg);
   background-size: 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -200,7 +200,7 @@ table {
 /*******************************************/
 
 .aboutSection {
-  background-image: url(images/pie&fruit-about.jpeg);
+  background-image: url(/images/pie&fruit-about.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 650px;
@@ -227,13 +227,6 @@ table {
 .menu-items {
   width: 100%;
 }
-
-.menu-items img {
-  
-}
-
-
-
 
 /******************************************
 /* BUTTONS
@@ -263,9 +256,3 @@ table {
   border-top-right-radius: 7.5px;
   border-bottom-right-radius: 7.5px;
 }
-
-/* 
-TEMPORARY HIDE SO I DON'T HAVE TO KEEP SCROLLING EVERY REFRESH JESUS */
-/* .hero, .aboutSection {
-  display: none;
-} */
