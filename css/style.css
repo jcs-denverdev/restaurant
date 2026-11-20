@@ -151,7 +151,6 @@ nav.navbar li {
 header .navbar ul li i.fa-magnifying-glass {
   position: relative;
   left: 25px;
-
 }
 
 /******************************************
@@ -182,15 +181,14 @@ main {
 
 .welcome {
   padding: 5em 8em 8em 3em;
-  border: 2px solid black;
   /* margin: 3em; */
   width: 70%;
-  background-color: rgba(99, 99, 210, 0.44);
+  /* background-color: rgba(99, 99, 210, 0.44); */
 }
 
-.welcome h1 {
+/* .welcome h1 {
   background-color: rgba(165, 42, 42, 0.598);
-}
+} */
 
 .heading-bold-font {
   font: 700 italic 3.5em 'PT Serif';
@@ -202,7 +200,8 @@ main {
 
 .welcome form {
   margin-top: 1em;
-  background-color: aquamarine;
+  width: 100%;
+  /* background-color: aquamarine; */
 }
 
 .welcome input {
@@ -213,16 +212,16 @@ main {
   border: 1px solid gray;
 }
 
-main section.welcome form i.fa-magnifying-glass {
+/* main section.welcome form i.fa-magnifying-glass {
   position: relative;
   left: 25px;
-  color: blue;
-}
+
+} */
 
 .orange-button {
   position: relative;
-  right: .3em;
-  padding: 1.2em;
+  right: .5em;
+  padding: 1.25em;
 
   background-color: var(--orange-theme);
   color: white;
@@ -233,9 +232,12 @@ main section.welcome form i.fa-magnifying-glass {
 
 .welcome span {
   float: left;
-  padding-top: 20px;
-  width: 100px;
+  padding: 1em;
   font-size: 1.3em;
+}
+
+.welcome span i {
+  margin-right: .3em;
 }
 
 /******************************************
