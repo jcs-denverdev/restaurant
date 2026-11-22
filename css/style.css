@@ -244,21 +244,23 @@ main {
 /* ABOUT
 /*******************************************/
 
-.aboutSection {
+.about_section {
   background-image: url(/images/pie&fruit-about.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 650px;
-  
+  float: left;
 }
 
-.aboutSection section {
+.about_text_container {
   background-color: rgba(255, 255, 255, 0.9);
-  width: 50%;
+  width: 60%;
+  padding: 2em;
+  float: right;
+  /* width: 50%;
   position: relative;
   top: 100px;
   left: 600px;
-  padding: 20px;
+  padding: 20px; */
 }
 
 /******************************************
