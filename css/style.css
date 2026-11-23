@@ -218,7 +218,7 @@ main {
 
 } */
 
-.orange-button {
+.orange_btn {
   position: relative;
   right: .5em;
   padding: 1.25em;
@@ -256,11 +256,15 @@ main {
   width: 60%;
   padding: 2em;
   float: right;
-  /* width: 50%;
-  position: relative;
-  top: 100px;
-  left: 600px;
-  padding: 20px; */
+}
+
+.about_text_container .whole_btn {
+  margin-top: 2em;
+  /* padding: 1em; */
+  background-color: var(--orange-theme);
+  color: white;
+  border: none;
+  border-radius: 7px;
 }
 
 /******************************************
