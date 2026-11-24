@@ -260,11 +260,13 @@ main {
 
 .about_text_container .whole_btn {
   margin-top: 2em;
-  /* padding: 1em; */
+  padding: 1em;
   background-color: var(--orange-theme);
   color: white;
   border: none;
-  border-radius: 7px;
+  border-radius: 0; /* reset .orange_btn radius */
+  border-top-left-radius: 7.5px;
+  border-bottom-left-radius: 7.5px;
 }
 
 /******************************************
